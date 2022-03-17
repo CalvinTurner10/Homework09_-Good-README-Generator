@@ -2,9 +2,7 @@ const inquirer = require('inquirer');
 const fs = require ('path');
 const generateMarkdown = require('./generateMarkdown');
 
-function init(){
-    inquirer
-    .prompt([
+const questions = [
         {
 
             type:'input',
@@ -146,9 +144,27 @@ function init(){
                 }
             }
 
-        },
+        }
         
         
     ])
-    
+
+function formatLicense(license){
+    switch (license){
+        case 'Apache License v2.0':
+            license = 'Apache%202.0';
+            break;
+            case 'GNU General Public License v3.0':
+                license = 'GPL';
+                break;
+                case 'MIT License':
+                    license = 'MIT';
+                    break;
+    }
+    return license;
+
 }
+inquirer.prompt(questions).then(function(answers){
+    console.log(generateMarkdown(answers));
+    fs.writeFileSync(path.join(_dirname,'README.md'), generateMarkdown(answers));
+})
