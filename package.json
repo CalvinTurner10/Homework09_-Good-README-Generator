@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CalvinTurner10/Homework09_-Good-README-Generator/issues"
   },
-  "homepage": "https://github.com/CalvinTurner10/Homework09_-Good-README-Generator#readme"
+  "homepage": "https://github.com/CalvinTurner10/Homework09_-Good-README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.1"
+  }
 }
