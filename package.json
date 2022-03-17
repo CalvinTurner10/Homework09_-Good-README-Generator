@@ -1,0 +1,19 @@
+{
+  "name": "homework09_-good-readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinTurner10/Homework09_-Good-README-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalvinTurner10/Homework09_-Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/CalvinTurner10/Homework09_-Good-README-Generator#readme"
+}
