@@ -56,3 +56,36 @@ function renderLicenseLink(license){
 
     }
 }
+function renderLicenseSection(license){
+    if (license !== 'None') {
+      return `
+      # License
+      The application is covered under the following license:
+      ${renderLicenseLink(license)}
+      `;
+        } else {
+            return '';
+        }
+    }
+
+    function generateMarkdown(data){
+        console.log(data.license);
+        return `
+        # ${data.title}
+        ${renderLicenseBadge(data.license)}
+
+        ## Table of Contents
+        
+        *[Project Description](#project-description)
+        *[Installation](#installation)
+        * [Usage](#usage)
+        * [License](#license)
+        * [Contributions](#contributions)
+        * [Test Instructions](#test-instructions)
+        * [Questions](#questions)
+        
+        # Project Description
+        $
+    
+    }
+}
