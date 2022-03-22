@@ -55,6 +55,7 @@ function renderLicenseLink(license){
              `;  
 
     }
+
 }
 function renderLicenseSection(license){
     if (license !== 'None') {
@@ -85,7 +86,29 @@ function renderLicenseSection(license){
         * [Questions](#questions)
         
         # Project Description
-        $
-    
+        ${data.description}
+
+        # Installation
+        ${data.installIns}
+
+        # Usage
+        ${data.usageInfo}
+
+        ${renderLicenseSection(data.license)}
+
+        # Contributions
+        ${data.contributing}
+
+        # Test Instructions
+        ${data.testing}
+        
+        # Questions
+        
+        Any additional questions, please contact me at [${data.email}] (mailto:${data.email})
+
+        https://github.com/${data.githubuser}
+        `;
+
     }
-}
+
+    module.exports = generateMarkdown;

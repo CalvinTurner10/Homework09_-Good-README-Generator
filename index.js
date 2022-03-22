@@ -1,5 +1,6 @@
+const fs = require ('fs');
+const path = require('path');
 const inquirer = require('inquirer');
-const fs = require ('path');
 const generateMarkdown = require('./generateMarkdown');
 
 const questions = [
@@ -61,7 +62,7 @@ const questions = [
                     return true;
 
                 } else{
-                    console.log('The README should have a title.');
+                    console.log('The README should have installation instructions.');
                     return false;
                 }
             }
@@ -146,9 +147,8 @@ const questions = [
 
         }
         
-        
-    ])
-
+    
+    ]
 function formatLicense(license){
     switch (license){
         case 'Apache License v2.0':
@@ -163,8 +163,12 @@ function formatLicense(license){
     }
     return license;
 
+
 }
+
+
 inquirer.prompt(questions).then(function(answers){
     console.log(generateMarkdown(answers));
-    fs.writeFileSync(path.join(_dirname,'README.md'), generateMarkdown(answers));
+    fs.writeFileSync(path.join(__dirname, 'README.md'), generateMarkdown(answers));
 })
+  
