@@ -1,6 +1,7 @@
 
         # Professional README Generator
-        
+
+Link to readme video: https://www.kapwing.com/videos/624237c150ad0b00856c35d3
 
         ## Table of Contents
         
@@ -16,24 +17,22 @@
         Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain.
 
         # Installation
-       To use the app download the file from GitHub. Find the file in the terminal in vscode. Download node from (nodejs.org). In the terminal type (npm install). The type (node index.js) and follow the prompts to make the readme.
+        undefined
 
         # Usage
-        AS A developer
- I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+        undefined
 
         
 
         # Contributions
-        N/a
+        n/a
 
         # Test Instructions
-        Node index.js
+        type /Node Index.js to start the app.
         
         # Questions
         
         Any additional questions, please contact me at [turnerjrcalvin@gmail.com] (mailto:turnerjrcalvin@gmail.com)
 
-        https://github.com/CalvinTurner10
+        https://github.com/calvinturner10
         
