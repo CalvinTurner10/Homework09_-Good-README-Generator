@@ -1,14 +1,7 @@
 
-<<<<<<< HEAD
         # Professional README Generator
 
 New Link to readme video: https://www.kapwing.com/videos/624237c150ad0b00856c35d3
-=======
-       
-       Video Link: https://www.kapwing.com/videos/623f516dddfebc0059d9cb57
-       # Professional README Generator
-        
->>>>>>> a43f31630a84e2b2d486fe8e294ae2a0a098d368
 
         ## Table of Contents
         
