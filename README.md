@@ -34,10 +34,8 @@ New Link to readme video: https://www.kapwing.com/videos/624237c150ad0b00856c35d
         
         Any additional questions, please contact me at [turnerjrcalvin@gmail.com] (mailto:turnerjrcalvin@gmail.com)
 
-<<<<<<< HEAD
+
         https://github.com/calvinturner10
         
-=======
-        https://github.com/CalvinTurner10
         
->>>>>>> a43f31630a84e2b2d486fe8e294ae2a0a098d368
+
